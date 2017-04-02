@@ -27,6 +27,24 @@
 			do_action( 'storefront_footer' ); ?>
 
 		</div><!-- .col-full -->
+		<div class="footer_icons">
+			<a class="footer_icon footer_icon-fanpage" href="" title="Fanpage Gỗ Hoa">Fanpage Gỗ Hoa</a>
+			<a class="footer_icon footer_icon-youtube" href="" title="Youtube Gỗ Hoa">Youtube Gỗ Hoa</a>
+			<a class="footer_icon footer_icon-instagram" href="" title="Instagram Gỗ Hoa">Instagram Gỗ Hoa</a>
+			<a class="footer_icon footer_icon-email" href="" title="Email Gỗ Hoa">Email Gỗ Hoa</a>
+			<span class="footer_icon-hotline">HOTLINE:<a href="tel:01245336688" title="Hotline Gỗ Hoa"> 01245336688</a></span>
+		</div>
+		<nav class="navbot">
+			<div class="col-full">
+				<ul class="navbot_lst">
+					<li class="navbot_item"><a href="" title="Liên hệ">Liên hệ</a></li>
+					<li class="navbot_item"><a href="" title="About us">About us</a></li>
+					<li class="navbot_item"><a href="" title="Chính sách bán hàng">Chính sách bán hàng</a></li>
+					<li class="navbot_item"><a href="" title="Cam kết">Cam kết</a></li>
+					<li class="navbot_item"><a href="" title="Bản quyền">Bản quyền</a></li>
+				</ul>
+			</div>
+		</nav>
 	</footer><!-- #colophon -->
 
 	<?php do_action( 'storefront_after_footer' ); ?>
