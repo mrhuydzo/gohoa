@@ -15,7 +15,8 @@
     font-style: normal;
 }
 
-
+.onsale {position: absolute;top: 10px;left: 10px;color: red; border-color: red}
+.star-rating {display: none !important;}
 
 .footer_icons {text-align: center;padding: 10px 0;border-bottom: solid 1px #8e8e7c;border-top: solid 1px #8e8e7c;color: #8e8e7c;text-transform: uppercase}
 .footer_icon {display: inline-block;margin: 0 20px;text-indent: -9999em;
