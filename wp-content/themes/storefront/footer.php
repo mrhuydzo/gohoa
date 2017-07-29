@@ -15,6 +15,18 @@
 	<?php do_action( 'storefront_before_footer' ); ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="col-full">
+
+			<?php
+			/**
+			 * Functions hooked in to storefront_footer action
+			 *
+			 * @hooked storefront_footer_widgets - 10
+			 * @hooked storefront_credit         - 20
+			 */
+			do_action( 'storefront_footer' ); ?>
+
+		</div><!-- .col-full -->
 		<div class="footer_icons">
 			<a class="footer_icon footer_icon-fanpage" href="https://www.facebook.com/rustichome.hn/?fref=ts" target="_blank" title="Fanpage Gỗ Hoa">Fanpage Gỗ Hoa</a>
 			<a class="footer_icon footer_icon-youtube" href="<?php echo get_page_link(2); ?>" title="Youtube Gỗ Hoa">Youtube Gỗ Hoa</a>
@@ -33,16 +45,6 @@
 				</ul>
 			</div>
 		</nav>
-		<div class="col-full">
-			<?php
-			/**
-			 * Functions hooked in to storefront_footer action
-			 *
-			 * @hooked storefront_footer_widgets - 10
-			 * @hooked storefront_credit         - 20
-			 */
-			do_action( 'storefront_footer' ); ?>
-		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
 
 	<?php do_action( 'storefront_after_footer' ); ?>
