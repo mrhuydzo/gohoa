@@ -142,7 +142,7 @@ if ( ! function_exists( 'storefront_header_widget_region' ) ) {
 		if ( is_active_sidebar( 'header-1' ) ) {
 		?>
 		<div class="header-widget-region" role="complementary">
-			<div class="col-full">
+			<div class="">
 				<?php dynamic_sidebar( 'header-1' ); ?>
 			</div>
 		</div>
